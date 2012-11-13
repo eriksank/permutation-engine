@@ -1,7 +1,7 @@
 Permutation Engine
 ==================
 
-Javascript library for mapping permutations onto numbers which allows for looping through a set of permutations and skipping ranges.
+NodeJS javascript library for mapping permutations onto numbers and looping and skipping through permutations.
 
 Installation
 ------------
