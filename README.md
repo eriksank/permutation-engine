@@ -188,7 +188,7 @@ The next permutation in a row
 
 _Note: We can find the next permutation by looking up its index with `index=engine.perm2index(perm)` and then increment the index with `index++` and then find the permutation for this next index with `perm=engine.index2perm(index)`._
 
-There is also a direct way through the function `engine.nextPerm(perm)` to finding the next permutation for a given permutation:
+There is also a direct way through the function `engine.nextPerm(perm)` to find the next permutation for a given permutation:
 
 ```javascript
 var engine=new permutationEngine(9); 
@@ -219,7 +219,9 @@ Output:
 
 	the next interesting permutation for [ 1 2 8 6 5 4 7 3 9 ] is : 1,2,9,3,4,5,6,7,8 with index: 4320
 
-Without skipping ranges of permutations, a permutational problem is always [NP-complete](http://en.wikipedia.org/wiki/NP-complete). The potential total number of evaluations to make is `n!`. This ordinarily means that the problem cannot be solved for larger dimensions. However, if this problem can be addressed by judiciously skipping entire ranges of permutations, it may be possible to solve a large permutational problem anyway. The earlier you can detect that a range is invalid, the better. For example, it is better to detect that the following prefix is invalid:
+Without skipping ranges of permutations, a permutational problem is always [NP-complete](http://en.wikipedia.org/wiki/NP-complete). The potential total number of evaluations is `n!`. This usually means that the problem cannot be solved for larger dimensions. However, by judiciously skipping entire ranges of permutations, it may be possible to solve a large permutational problem anyway.
+
+The earlier you can detect that a range is invalid, the better. For example, it is better to detect that the following prefix is invalid:
 
 	[ 1 2 8 ] [ . . . . . . ]  6!=720 possibilities skipped
 
@@ -228,11 +230,11 @@ than only seeing it later:
 	[ 1 2 8 6 5 4 ] [ . . . ]  only 3!=6 possibilities skipped 
 
 
-For example, solving the [Travelling salesman problem](http://en.wikipedia.org/wiki/Travelling_salesman_problem) amounts to discovering a permutation-skipping strategy leaving a number of permutations to evaluate that does not grow factorially with the number of cities.
+For example, solving the [Travelling salesman problem](http://en.wikipedia.org/wiki/Travelling_salesman_problem) amounts to discovering a permutation-skipping strategy leaving the number of permutations to evaluate that does not grow factorially with the number of cities.
 
 
-Solution to the example problem
--------------------------------
+Solution for the example problem
+--------------------------------
 
 You can find the complete solution in the file `test/test-3x3.js`. 
 
@@ -285,7 +287,7 @@ Output:
 	evaluated perc:2.31%
 
 
-As you can see, the skipping strategy implemented brought down the number of permutations to evaluate from **362 880** to **8 376**, i.e. to around **2%** of the total.
+As you can see, the skipping strategy implemented, brought down the number of permutations to evaluate from **362 880** to **8 376**, i.e. to around **2%** of the total.
 
 
 API Summary
