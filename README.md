@@ -6,7 +6,7 @@ Javascript library for mapping permutations onto numbers which allows for loopin
 Installation
 ------------
 
-PermutationEngine can be installed for [Node](http://nodejs.org) using [`npm`](http://github.com/isaacs/npm/).
+Permutation Engine can be installed for [Node](http://nodejs.org) using [`npm`](http://github.com/isaacs/npm/).
 
 Using npm:
 
