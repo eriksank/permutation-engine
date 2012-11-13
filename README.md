@@ -164,7 +164,7 @@ You can find a full explanation for the [factorial number system](http://en.wiki
 The number for a permutation
 ----------------------------
 
-We can also find the permutation to any particular number. For example, if we want the number for the permutation:
+We can also find the number for any particular permutation. For example, if we want the number for the permutation:
 
 	[ 1 2 8 6 5 4 7 3 9 ]
 
