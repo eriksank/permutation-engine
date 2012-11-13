@@ -1,5 +1,5 @@
-PermutationEngine
-=================
+Permutation Engine
+==================
 
 Javascript library for mapping permutations onto numbers which allows for looping through a set of permutations and skipping ranges.
 
@@ -10,7 +10,7 @@ PermutationEngine can be installed for [Node](http://nodejs.org) using [`npm`](h
 
 Using npm:
 
-    npm install PermutationEngine
+    npm install permutation-engine
 
 
 Example problem
