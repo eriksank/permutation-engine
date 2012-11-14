@@ -1,13 +1,13 @@
 {
   "name": "permutation-engine",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Javascript library for mapping permutations onto numbers which allows for looping through a set of permutations and skipping ranges",
   "author": {
     "name": "Erik Poupaert",
     "email": "erik@sankuru.biz",
     "url": "https://github.com/eriksank/permutation-engine"
   },
-  "main": "lib/engine.js",
+  "main": "lib/permutation-engine.js",
   "scripts": {
     "test": "test/test-all.js"
   },
@@ -19,7 +19,7 @@
     "permutation"
   ],
   "license": "LGPL",
-  "_id": "Permutation-engine@0.1.2",
+  "_id": "Permutation-engine@0.1.3",
   "dependencies": {},
   "devDependencies": {},
   "optionalDependencies": {},

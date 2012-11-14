@@ -7,7 +7,7 @@
 
 //initialize the permutation engine
 
-var permutationEngine=require('../lib/engine.js');
+var permutationEngine=require('../lib/permutation-engine.js');
 
 /* 1. initialPerm() */
 

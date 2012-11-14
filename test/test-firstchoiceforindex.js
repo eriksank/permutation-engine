@@ -6,7 +6,7 @@
 */
 
 //initialize the permutation engine
-var permutationEngine=require('../lib/engine.js');
+var permutationEngine=require('../lib/permutation-engine.js');
 var n=5;
 var engine=new permutationEngine(n); 
 
