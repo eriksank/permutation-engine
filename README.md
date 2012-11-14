@@ -89,7 +89,7 @@ The first number **0** is mapped to:
 We can obtain the first permutation with the function `engine.initialPerm()`:
 
 ```javascript
-var permutationEngine=require('permutation-engine.js');
+var permutationEngine=require('permutation-engine');
 var engine=new permutationEngine(9); 
 var perm=engine.initialPerm();
 console.log('the initial permutation is: '+perm);
