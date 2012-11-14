@@ -230,7 +230,7 @@ than only seeing it later:
 	[ 1 2 8 6 5 4 ] [ . . . ]  only 3!=6 possibilities skipped 
 
 
-For example, solving the [Travelling salesman problem](http://en.wikipedia.org/wiki/Travelling_salesman_problem) amounts to discovering a permutation-skipping strategy leaving the number of permutations to evaluate that does not grow factorially with the number of cities.
+For example, solving the [Travelling salesman problem](http://en.wikipedia.org/wiki/Travelling_salesman_problem) amounts to discovering a permutation-skipping strategy leaving a number of permutations to evaluate that does not grow factorially with the number of cities.
 
 
 Solution for the example problem
