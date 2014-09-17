@@ -127,10 +127,10 @@ Calling the `lastPerm()` function is equivalent to calling the `index2perm()` fu
 var perm=engine.index2perm(362879);
 ```
 
-Or to calling the `index2perm()` function with `engine.indexCount`:
+Or to calling the `index2perm()` function with `engine.indexCount - 1`:
 
 ```javascript
-var perm=engine.index2perm(engine.indexCount);
+var perm=engine.index2perm(engine.indexCount - 1);
 ```
 
 ###The permutation for any number
